@@ -1,97 +1,125 @@
-# Perfume Shop Management System
+````md id="l2z91t"
+# 🌸 Perfume Shop Management System
 
-A desktop-based retail management application developed using **Python (Tkinter)** and **MySQL**. This project automates perfume shop operations such as inventory handling, billing, vendor management, and sales tracking through a user-friendly graphical interface.
+A desktop-based retail management application developed using **Python (Tkinter)** and **MySQL**.  
+This project automates perfume shop operations such as inventory handling, billing, vendor management, and sales tracking through a user-friendly graphical interface.
 
-## Features
+---
 
-* Secure Login Page
-* Add New Products
-* Smart Brand Suggestions while typing
-* View Inventory in table format
-* Search Products by name or brand
-* Low Stock Alerts
-* Update Product Details
-* Delete Products
-* Billing Module with product dropdown
-* Auto stock reduction after billing
-* Dummy Invoice / Receipt generation
-* Vendor Management
-* Sales Report / Transaction History
+## 🚀 Features
 
-## Tech Stack
+- 🔐 Secure Login Page
+- 📦 Add New Products
+- 💡 Smart Brand Suggestions while typing
+- 📋 View Inventory in table format
+- 🔍 Search Products by name or brand
+- ⚠️ Low Stock Alerts
+- ✏️ Update Product Details
+- 🗑️ Delete Products
+- 🧾 Billing Module with product dropdown
+- 📉 Auto stock reduction after billing
+- 🧾 Dummy Invoice / Receipt Generation
+- 🏢 Vendor Management
+- 📊 Sales Report / Transaction History
 
-| Layer         | Technology      |
-| ------------- | --------------- |
-| Frontend      | Python Tkinter  |
-| Backend Logic | Python          |
-| Database      | MySQL           |
-| Connectivity  | mysql.connector |
-| IDE           | VS Code         |
+---
 
-## Database Tables
+## 🛠️ Tech Stack
 
-* `inventory` - Stores perfume products
-* `sales` - Stores billing transactions
-* `vendors` - Stores supplier details
-* `customers` - Stores customer records
+| Layer | Technology |
+|------|------------|
+| Frontend | Python Tkinter |
+| Backend Logic | Python |
+| Database | MySQL |
+| Connectivity | mysql.connector |
+| IDE | VS Code |
 
-## Installation & Setup
+---
 
-1. Clone the repository.
-2. Install Python 3.x.
-3. Install MySQL and create the project database.
-4. Install dependency:
+## 🗃️ Database Tables
+
+- **inventory** → Stores perfume products  
+- **sales** → Stores billing transactions  
+- **vendors** → Stores supplier details  
+- **customers** → Stores customer records  
+
+---
+
+## ⚡ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone <your-repository-link>
+cd Perfume-Shop-Management-System
+````
+
+### 2️⃣ Install Python 3.x
+
+Make sure Python is installed on your system.
+
+### 3️⃣ Install MySQL
+
+Install MySQL Server and keep the service running.
+
+### 4️⃣ Install Required Dependency
 
 ```bash
 pip install mysql-connector-python
 ```
 
-5. Update MySQL credentials inside the Python file.
-6. Run the project:
+### 5️⃣ Update MySQL Credentials
+
+Open `perf_shop.py` and update:
+
+```python
+user="root"
+password="your_password"
+```
+
+### 6️⃣ Run the Project
 
 ```bash
 python perf_shop.py
 ```
 
-## Screenshots
+---
 
-Add screenshots here:
-
-* Login Page
-* Dashboard
-* Add Product Window
-* Inventory Module
-* Billing Window
-* Invoice Output
-* Sales Report
-
-## Learning Outcomes
+## 🎓 Learning Outcomes
 
 This project demonstrates:
 
-* DBMS concepts
+* Database Management System concepts
 * CRUD operations
 * SQL queries
-* GUI development with Tkinter
+* GUI development using Tkinter
 * Frontend-backend integration
 * Real-world retail workflow automation
 
-## Future Enhancements
+---
 
-* Barcode scanner integration
-* GST invoice generation
-* Export reports to PDF/Excel
-* Customer loyalty system
-* Analytics dashboard
-* Cloud deployment
+## 🚀 Future Enhancements
 
-## Contributors
+* Barcode Scanner Integration
+* GST Invoice Generation
+* Export Reports to PDF / Excel
+* Customer Loyalty System
+* Analytics Dashboard
+* Cloud Deployment
+
+---
+
+## 👥 Contributors
 
 * Sanya Singh
-* Vedika Shankhapal
-* Sayee Shiurkar
-* Vedant Sonawane
 
-## License
+---
+
+## 📜 License
 
 This project is created for educational and academic purposes.
+
+---
+
+```
+```
